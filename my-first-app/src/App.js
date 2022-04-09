@@ -1,11 +1,18 @@
 import './App.css';
-import {DoubleNavbar} from './navbar';
+import Counter from './components/counter';
 
+import React, { Component } from 'react'
 
-function App() {
-  return (
-    DoubleNavbar()
-  );
+export class App extends Component {
+  render() {
+    return (
+      <div>
+        <Counter/> 
+        </div>
+    )
+  }
 }
+
+
 
 export default App;
