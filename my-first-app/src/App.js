@@ -14,6 +14,8 @@ import ClickBindClass from './react-tutorial-14/clickBindClass';
 import ParentComponent from './react-tutorial-15/ParentComponent';
 import UserGreeting from './react-tutorial-16/UserGreeting';
 
+import NameList from './react-tutorial-17/nameList';
+
 
 
 export class App extends Component {
@@ -27,8 +29,9 @@ export class App extends Component {
         {/* <ClickClass/> */}
         {/* <ClickBindClass/> */}
         {/* <ParentComponent/> */}
+        {/* <UserGreeting/> */}
 
-        <UserGreeting/>
+      <NameList/>
 
         </div>
     )
