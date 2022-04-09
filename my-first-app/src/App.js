@@ -1,12 +1,19 @@
 import './App.css';
+import React, { Component } from 'react'
+
 import Counter from './react-tutorial-11/counter';
+
 import Greet from './react-tutorial-12/GreetFun';
 import GreetClass from './react-tutorial-12/GreetClass';
+
 import ClickFunc from './react-tutorial-13/clickFunc';
 import ClickClass from './react-tutorial-13/clickClass';
+
 import ClickBindClass from './react-tutorial-14/clickBindClass';
 
-import React, { Component } from 'react'
+import ParentComponent from './react-tutorial-15/ParentComponent';
+
+
 
 export class App extends Component {
   render() {
@@ -17,7 +24,8 @@ export class App extends Component {
         {/*<GreetClass fname="Jaynil" lname="Patel" /> */}
         {/* <ClickFunc/> */}
         {/* <ClickClass/> */}
-        <ClickBindClass/>
+        {/* <ClickBindClass/> */}
+        <ParentComponent/>
 
         </div>
     )
