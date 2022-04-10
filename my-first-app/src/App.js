@@ -15,6 +15,8 @@ import ParentComponent from './react-tutorial-15/ParentComponent';
 import UserGreeting from './react-tutorial-16/UserGreeting';
 
 import NameList from './react-tutorial-17/nameList';
+import StyleSheet from './react-tutorial-20/StyleSheet';
+import InlineStyles from './react-tutorial-20/inlineStyles';
 
 
 
@@ -31,8 +33,9 @@ export class App extends Component {
         {/* <ParentComponent/> */}
         {/* <UserGreeting/> */}
 
-      <NameList/>
-
+      {/* <NameList/> */}
+      <StyleSheet primaryClass={true}/>
+{/* <InlineStyles/> */}
         </div>
     )
   }
