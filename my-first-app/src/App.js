@@ -19,6 +19,8 @@ import StyleSheet from './react-tutorial-20/StyleSheet';
 import InlineStyles from './react-tutorial-20/InlineStyles';
 import LifeCycleA from './react-tutorial-22/LifeCycleA';
 
+import LifeCycleUpdateA from './react-tutorial-24/LifeCycleUpdateA';
+
 
 
 export class App extends Component {
@@ -38,7 +40,8 @@ export class App extends Component {
       {/* <StyleSheet primaryClass={true}/> */}
 {/* <InlineStyles/> */}
 
-<LifeCycleA/>
+{/* <LifeCycleA/> */}
+<LifeCycleUpdateA/>
         </div>
     )
   }
